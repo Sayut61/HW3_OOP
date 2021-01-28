@@ -19,7 +19,7 @@ public class Ship extends Vehicle{
     }
 
     @Override
-    void ship() {
+    void vehicle() {
         System.out.println(getName() + " находится: " + getCoordinatesX() + " " + getCoordinatesY() +
                 ", c " + getNumbersOfPassanger() + " человек, в порту: " + getPort());
     }

@@ -15,12 +15,10 @@ public class Vehicle {
     }
 
 
-    void plane(){
+    void vehicle(){
 
     }
-    void ship(){
 
-    }
 
     public double getCoordinatesX() {
         return coordinatesX;

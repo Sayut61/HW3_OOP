@@ -19,7 +19,7 @@ public class Plane extends Vehicle{
     }
 
     @Override
-    void plane() {
+    void vehicle() {
         System.out.println(getName() + " находится: " + getCoordinatesX() + " " + getCoordinatesY() +
                 ", на высоте: " + getHeight() + ", с " + getNumberOfPassangers() +
                 " человек на борту." );
